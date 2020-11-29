@@ -1,0 +1,25 @@
+{
+	"version": "2.0",
+	"extensions": {
+		"http": {
+			"routePrefix": "",
+			"customHeaders": {
+				"Pragma": "no-cache",
+				"Author": "Kevin"
+			},
+			"hsts": {
+				"isEnabled": true,
+				"includeSubDomains": true,
+				"maxAge": "365",
+				"preload": true
+			}
+		}
+	},
+	"logging": {
+		"applicationInsights": {
+			"samplingSettings": {
+				"isEnabled": false
+			}
+		}
+	}
+}
